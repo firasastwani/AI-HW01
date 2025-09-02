@@ -297,13 +297,13 @@ def POS_tag(sentence):
 
 if __name__ == "__main__":
        
-    """
+    
     print("\nTesting segments:")
     print(list(segments([4, 5, 6])))  # [[4], [4, 5], [4, 5, 6], [5], [5, 6], [6]]
     print(list(segments("lmn")))       # ['l', 'lm', 'lmn', 'm', 'mn', 'n']
-    """
+
     
-    """
+
     print("\nTesting Polynomial negation:")
     f = Polynomial([(3, 2), (4, 1)])
     print("Original f:", f.get_polynomial())  # ((3, 2), (4, 1))
@@ -373,9 +373,9 @@ if __name__ == "__main__":
     a_times_a = a * a
     a_times_a.simplify()
     print("a * a =", str(a_times_a))  # "x^2 + 2x + 1"
-    """
 
-    """
+
+
     print("\nTesting matrix sorting (flatten and sort all values):")
     mat_a = np.array([[10, 20], [30, 40]])  # 2x2 matrix
     mat_b = np.array([[15, 25, 35], [45, 55, 65], [5, -5, -15]])  # 3x3 matrix
@@ -392,7 +392,7 @@ if __name__ == "__main__":
     print(f"\nAll values flattened and sorted (descending): {result}")
     print(f"Data type: {result.dtype}")
     print(f"Shape: {result.shape}")
-    """
+
 
     print("\nTesting POS tagging:")
     sentence = "Python programming is fun and exciting!"
